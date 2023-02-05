@@ -1,0 +1,32 @@
+{
+	"folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        
+            "kite.showWelcomeNotificationOnStartup": false,
+            "editor.minimap.enabled": false,
+            "liveServer.settings.donotShowInfoMsg": true,
+            "explorer.confirmDelete": false,
+            "workbench.colorTheme": "One Monokai",
+            "workbench.preferredDarkColorTheme": "Default Light+",
+            "workbench.preferredHighContrastColorTheme": "Default Light+",
+            "workbench.preferredHighContrastLightColorTheme": "Default Light+",
+            "workbench.iconTheme": "vscode-icons",
+            "explorer.confirmDragAndDrop": false,
+            "workbench.statusBar.visible": false,
+            "workbench.panel.opensMaximized": "never",
+            "editor.fontSize": 13,
+            "editor.fontWeight": "500",
+            "editor.fontLigatures": false,
+            "editor.detectIndentation": false,
+            "security.workspace.trust.untrustedFiles": "open",
+            "vsicons.dontShowNewVersionMessage": true,
+            
+            
+           
+        
+    }
+}
