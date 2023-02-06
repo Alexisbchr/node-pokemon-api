@@ -8,7 +8,8 @@ var app = express();
 const port = 3000;
 
 app.use(favicon(__dirname + "/favicon.ico"))
-	.use(morgan('dev')).use(bodyParser.json())
+	.use(morgan("dev"))
+	.use(bodyParser.json());
 
 sequelize.initDb();
 
@@ -18,11 +19,10 @@ require("./src/routes/createPokemon")(app);
 require("./src/routes/updatePokemon")(app);
 require("./src/routes/deletePokemon")(app);
 
-
-app.use(({ res }) => {
-	const message = "Not found"
-	res.status(404).json({ message })
-})
+app.use(({res}) => {
+	const message = "Not found";
+	res.status(404).json({message});
+});
 
 app.listen(port, () =>
 	console.log(

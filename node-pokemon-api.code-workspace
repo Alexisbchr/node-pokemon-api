@@ -9,20 +9,13 @@
 		"editor.minimap.enabled": false,
 		"liveServer.settings.donotShowInfoMsg": true,
 		"explorer.confirmDelete": false,
-		"workbench.colorTheme": "The Best Theme",
-		"workbench.preferredDarkColorTheme": "Default Light+",
-		"workbench.preferredHighContrastColorTheme": "Default Light+",
-		"workbench.preferredHighContrastLightColorTheme": "Default Light+",
-		"workbench.iconTheme": "vscode-icons",
-		"explorer.confirmDragAndDrop": false,
-		"workbench.statusBar.visible": false,
-		"workbench.panel.opensMaximized": "never",
-		"editor.fontSize": 13,
-		"editor.fontWeight": "500",
-		"editor.fontLigatures": false,
-		"editor.detectIndentation": false,
-		"security.workspace.trust.untrustedFiles": "open",
-		"vsicons.dontShowNewVersionMessage": true,
-		"workbench.colorCustomizations": {}
+		"[javascript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode",
+			"editor.formatOnSave": true
+		},
+		"editor.fontSize": 14,
+		"editor.autoClosingBrackets": "always",
+		"editor.autoClosingQuotes": "always",
+		"prettier.embeddedLanguageFormatting": "off"
 	}
 }
